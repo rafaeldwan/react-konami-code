@@ -1,0 +1,22 @@
+{
+  "name": "react-konami-code",
+  "version": "1.0.0",
+  "description": "React HOC allows wrapped component to respond when Konami Code (or any aribtrary string) is typed. Only holds keystrokes if in sequence.",
+  "main": "index.js",
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.0",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "konami",
+    "react",
+    "HOC",
+    "decorator"
+  ],
+  "author": "Rafael Dwan",
+  "license": "ISC"
+}
