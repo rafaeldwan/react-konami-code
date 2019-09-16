@@ -1,7 +1,7 @@
 {
   "name": "react-konami-code",
   "version": "1.0.0",
-  "description": "React HOC allows wrapped component to respond when Konami Code (or any aribtrary string) is typed. Only holds keystrokes if in sequence.",
+  "description": "React HOC alerts wrapped component when Konami Code is keyed in.",
   "main": "index.js",
   "dependencies": {
     "hoist-non-react-statics": "^3.3.0",
