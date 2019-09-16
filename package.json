@@ -1,5 +1,5 @@
 {
-  "name": "react-konami-code",
+  "name": "react-konami-code-decorator",
   "version": "1.0.0",
   "description": "React HOC alerts wrapped component when Konami Code is keyed in.",
   "main": "index.js",
