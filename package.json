@@ -1,15 +1,35 @@
 {
   "name": "react-konami-code-decorator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React HOC alerts wrapped component when Konami Code is keyed in.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "hoist-non-react-statics": "^3.3.0",
     "react": "^16.8.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "babel-plugin-transform-object-rest-spread"
+    ]
+  },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "konami",
@@ -18,5 +38,13 @@
     "decorator"
   ],
   "author": "Rafael Dwan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaeldwan/react-konami-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaeldwan/react-konami-code/issues"
+  },
+  "homepage": "https://github.com/rafaeldwan/react-konami-code#readme"
 }
